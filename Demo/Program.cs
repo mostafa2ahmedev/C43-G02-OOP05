@@ -34,7 +34,7 @@
 
             //    Console.WriteLine($"Enter the value of x for the Second point : ");
             //    int.TryParse(Console.ReadLine(), out userInput1);
-    
+
             //    Console.WriteLine($"Enter the value of y for the Second point : ");
             //    userInput2 = int.Parse(Console.ReadLine());
 
@@ -45,16 +45,21 @@
 
 
 
-    
+
 
         }
 
 
 
-            #endregion
+        #endregion
 
+        #region 4.	Try to use ==If(P1 == P2)   Does it work properly? 
+        //if (p1 == p2){ // new keyword creates 2 different instances in heap so both references refer to its own object    
+        // Console.WriteLine("Equals");
+        // }
+
+        #endregion
             
 
-
-        }
     }
+}
