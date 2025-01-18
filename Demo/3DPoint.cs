@@ -26,6 +26,14 @@ namespace Demo
         {
             this.Z = z;
         }
+
+
+        #region 2.	Override the ToString Function to produce this Output: “Point Coordinates: (10, 10, 10)”.
+        public override string ToString()
+        {
+            return $"Point Coordinates: ({X},{Y},{Z})";
+        } 
+        #endregion
     } 
     #endregion
 }
