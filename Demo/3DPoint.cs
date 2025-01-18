@@ -20,7 +20,7 @@ namespace Demo
         }
         public Point3D(int x, int y) : this(x)
         {
-            this.Y = y;
+            this.Y = y; 
         }
         public Point3D(int x, int y, int z) : this(x, y)
         {
