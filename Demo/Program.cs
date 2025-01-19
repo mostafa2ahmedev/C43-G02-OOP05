@@ -47,19 +47,52 @@
 
 
 
+
+
+
+
+            #endregion
+
+            #region 4.	Try to use ==If(P1 == P2)   Does it work properly? 
+            //if (p1 == p2){ // new keyword creates 2 different instances in heap so both references refer to its own object    
+            // Console.WriteLine("Equals");
+            // }
+
+            #endregion
+
+
+
+
+            #region 5.	Define an array of points and sort this array based on X & Y coordinates.
+
+            //Point3D[] arr = [new Point3D(1,2,3),new Point3D(4, 5, 6)];
+
+
+            #endregion
+
+            #region Second Project:Define Class Maths that has four methods: Add, Subtract, Multiply, and Divide
+
+            //Console.WriteLine(Maths.Add(1, 2));
+            //Console.WriteLine(Maths.Sub(1, 2));
+            //Console.WriteLine(Maths.Mul(1, 2));
+            //Console.WriteLine(Maths.Div(1, 2));
+
+
+
+
+            #endregion
+
+            #region Third Project 3 Define All Required Constructors to Produce this output:
+            //Duration D1 = new Duration(1, 10, 15);
+            //Console.WriteLine(D1.ToString());
+            //Duration D2 = new Duration(7800);
+            //Console.WriteLine(D2.ToString()); 
+            //Duration D3 = new Duration(666);
+            //Console.WriteLine(D3.ToString());
+            #endregion
+
+
+      
         }
-
-
-
-        #endregion
-
-        #region 4.	Try to use ==If(P1 == P2)   Does it work properly? 
-        //if (p1 == p2){ // new keyword creates 2 different instances in heap so both references refer to its own object    
-        // Console.WriteLine("Equals");
-        // }
-
-        #endregion
-            
-
     }
 }
